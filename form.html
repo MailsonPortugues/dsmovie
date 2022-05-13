@@ -28,17 +28,33 @@
          <div class="container dsmovie-form-container">
 
               <div>
-                  <div class="dsmovie-card">
+                  <div>
                     <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xGkmm8YB1HzM3GaQ3FBv1NTwWxS.jpg" alt="Ainbo: A Guerreira da Amazônia">
                     <div class="dsmovie-card-description">
                           <h3>Ainbo: A Guerreira da Amazônia </h3>
-                          <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                          <form class="dsmovie-form">
+                            <div class="form-group dsmovie-form-group">
+                              <label for="email">Informe o seu email.</label>
+                              <input class="form-control" type="email" id="email">
+                            </div>
+                    
+                    <div class="form-group dsmovie-form-group">
+                      <label for="score">Informe sua avaliação</label>
+                      <select class="form-control" name="score" id="score">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                       </select>
                     </div>
+                    <div class="dsmovie-form-btn-container">
+                      <button class="dsmovie-btn" type="submit" style="width: 170px;">Salvar</button>
+                      <a class="dsmovie-btn" style= "width: 170px;" href="index.html">Cancelar</a>
+                </div>
                   </div>
-              </div>
-
-         </div>
-        
+              </div>     
+      </div> 
       </section>
    </main>
 

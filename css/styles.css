@@ -136,18 +136,24 @@ a, a:hover {
 
 .dsmovie-form-container {
     padding: 20px 0;
-    max-width: 350px;
-}
-
-#dsmovie-form-section img{
-    margin-top: 0;
-    height: 350px;
-    width: 350px;  
-    border-radius: 8px 8px 0 0;
+    max-width: 480px;
+   
 }
 
 .dsmovie-form {
     width: 100%;
+ 
+    
+}
+
+ .dsmovie-form-container img {
+     width:  100%;
+     border-radius: 8px 8px 0 0;
+ }
+
+.dsmovie-form img {
+    width: 100%;
+    
 }
 
 .dsmovie-form-description {
@@ -162,18 +168,21 @@ a, a:hover {
 }
 
 .dsmovie-form-description h3 {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .dsmovie-form-group label {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--text-light-gray);
 }
 
 .dsmovie-form-btn-container {
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -220,8 +229,6 @@ a, a:hover {
 .dsmovies-paginatio-box button img {
     filter: brightness(0) saturate(100%) invert(22%) sepia(85%) saturate(2114%) hue-rotate(236deg) brightness(86%) contrast(90%);
 }
-
-
 
 
 .dsmovies-paginatio-box button:disabled {
